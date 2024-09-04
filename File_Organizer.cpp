@@ -29,7 +29,7 @@ void createSettingIfNotExists() {
 }
 
 void loadSettings() {
-    ifstream file("settings.txt");
+    ifstream file("./settings.txt");
     string line;
     while (getline(file, line)) {
         size_t pos = line.find(": ");
