@@ -1,5 +1,0 @@
-images: Images (Sowar)
-documents: Documents (Malafat)
-audios: Audios (7aga betetseme3)
-videos: Videos (videohat)
-others: Others ( ay 7aga tanya)
