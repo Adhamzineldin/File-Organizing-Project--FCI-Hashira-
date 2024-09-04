@@ -11,6 +11,8 @@ string audio = "audios";
 string video = "videos";
 string others = "others";
 
+
+//FUNCTION DEFINITIONS
 string getCategory(const string& extension) {
     static unordered_map<std::string, std::string> categories = {
         {".jpg", image}, {".jpeg", image}, {".png", image}, {".gif", image},
