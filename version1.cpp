@@ -1,6 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <filesystem>
+#include <windows.h>;
 
 using namespace std;
 
@@ -54,6 +55,8 @@ void organizeDirectory(const string& path) {
     }
 
     cout << "Directory organized successfully." << endl;
+    ShellExecute(NULL, "open", directoryPath.c_str(), NULL, NULL, SW_RESTORE);
+
 }
 
 
